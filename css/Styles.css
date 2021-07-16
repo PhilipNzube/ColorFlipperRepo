@@ -1,0 +1,196 @@
+body{
+	background-color:#f1f5f8;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	position: fixed;
+}
+#MainBG{
+}
+#AppName{
+	font-family:'Helvetica';
+	color:#152028;
+	position:relative;
+	left:50px;
+}
+#Links{
+	position:relative;
+	bottom:40px;
+	left:350px;
+	font-family:OCR A Std, monospace;
+	
+	
+}
+a{
+	color:brown;
+	text-decoration:none;
+}
+#Link1{
+}
+#Link2{
+position:relative;
+	left:150px;	
+	bottom:20px;
+}
+#Link3{
+	position:relative;
+	left:300px;
+	bottom:40px;
+}
+#Con{
+position:relative;
+	left:0px;	
+}
+#Cont{
+position:relative;
+	top:150px;	
+}
+
+#color{
+	font-family:OCR A Std, monospace;
+	color:darkblue;
+}
+#TopBar{
+	transition:all 5s ease-in-out;
+background:#fff;
+width:1400px;
+height:45px;
+border-radius:3px;
+border:1px solid #ccc;
+box-shadow:1px 5px 5px #ccc;
+position:relative;
+left:-20px;
+bottom:8px;
+color:#fff;
+}
+h2{
+	width:400px;
+height:85px;
+	border-radius:6px;
+	border:1px solid #ccc;
+	background:#000;
+	color:#ccc;
+	font-family:'Helvetica';
+	text-align:center;
+}
+#ClMe{
+border-radius:3px;
+border:1px solid #000;
+height:50px;
+width:120px;
+background:#fff;	
+}
+#ClMe:hover{
+background:darkblue;
+color:#fff;	
+border:1px solid #000;
+height:55px;
+width:125px;
+}
+#ClMe:focus{
+background:#000;
+color:#fff;	
+border:1px solid #ccc;
+}
+@media only screen and (max-width:375px){
+body{
+	background-color:#f1f5f8;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	position: fixed;
+}
+#MainBG{
+}
+#AppName{
+	font-family:'Helvetica';
+	color:#152028;
+	position:relative;
+	left:10px;
+	font-size:15px;
+	bottom:3px;
+}
+#Links{
+	position:relative;
+	bottom:40px;
+	left:350px;
+	font-family:OCR A Std, monospace;
+	
+	
+}
+a{
+	color:brown;
+	text-decoration:none;
+}
+
+#Link1{
+	position:relative;
+	right:220px;	
+}
+#Link2{
+position:relative;
+	left:-130px;	
+	bottom:18px;
+}
+#Link3{
+	position:relative;
+	left:-60px;
+	bottom:37px;
+}
+#Con{
+position:relative;
+	left:0px;	
+}
+#Cont{
+position:relative;
+	top:120px;	
+	right: 49px;
+}
+
+#color{
+	font-family:OCR A Std, monospace;
+	color:darkblue;
+}
+#TopBar{
+	transition:all 5s ease-in-out;
+background:#fff;
+width:400px;
+height:45px;
+border-radius:3px;
+border:1px solid #ccc;
+box-shadow:1px 5px 5px #ccc;
+position:relative;
+left:-20px;
+bottom:8px;
+color:#fff;
+}
+h2{
+	width:320px;
+height:80px;
+	border-radius:6px;
+	border:1px solid #ccc;
+	background:#000;
+	color:#ccc;
+	font-family:'Helvetica';
+	text-align:center;
+}
+#ClMe{
+border-radius:3px;
+border:1px solid #000;
+height:50px;
+width:120px;
+background:#fff;	
+}
+#ClMe:hover{
+background:darkblue;
+color:#fff;	
+border:1px solid #000;
+height:55px;
+width:125px;
+}
+
+#ClMe:focus{
+background:#000;
+color:#fff;	
+border:1px solid #ccc;
+}
+	
+}
