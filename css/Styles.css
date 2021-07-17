@@ -11,13 +11,14 @@ body{
 	color:#152028;
 	position:relative;
 	left:50px;
+	font-weight:bold;
 }
 #Links{
 	position:relative;
 	bottom:40px;
 	left:350px;
 	font-family:OCR A Std, monospace;
-	
+    font-weight:bold;
 	
 }
 a{
@@ -29,12 +30,12 @@ a{
 #Link2{
 position:relative;
 	left:150px;	
-	bottom:20px;
+	bottom:18px;
 }
 #Link3{
 	position:relative;
-	left:300px;
-	bottom:40px;
+	left:290px;
+	bottom:38px;
 }
 #Con{
 position:relative;
@@ -78,6 +79,7 @@ border:1px solid #000;
 height:50px;
 width:120px;
 background:#fff;	
+font-weight:bold;
 }
 #ClMe:hover{
 background:darkblue;
