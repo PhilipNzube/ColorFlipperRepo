@@ -1,4 +1,5 @@
-const cols=["Red","Green","Blue","rgba(133,40,169,1)","#f1f5f8"];
+const cols=["Red","Green","Blue","Silver","Grey","Darkblue","Brown","Black","Orange","Purple","White","Darkgreen","Darkred","Lightsalmon","Beige","LavenderBlush","Midnightblue","Lightgrey",
+"MediumSlateBlue","Cadetblue","Lightcyan","FireBrick","Mintcream","Palevioletred","Turquoise","Tan","Thistle","Limegreen","Darkgoldenrod","Lightblue","Mistyrose","Goldenrod","Whitesmoke"];
 var but=document.getElementById("ClMe");
 
 function getRandomNum(){
