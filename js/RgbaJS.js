@@ -10,5 +10,5 @@ function getRandomNum(){
 function ChangeBGCol(){
 	var randomNo=getRandomNum();
 	document.body.style.backgroundColor=cols[randomNo];
-	document.getElementById("color").innerHTML=cols[randomNo];
+	document.querySelector(".color").innerHTML=cols[randomNo];
 }

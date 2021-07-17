@@ -5,9 +5,8 @@ var but=document.getElementById("ClMe");
 function getRandomNum(){
 	return Math.floor(Math.random()*cols.length);
 }
-
 function ChangeBGCol(){
 	var randomNo=getRandomNum();
 	document.body.style.backgroundColor=cols[randomNo];
-	document.getElementById("color").innerHTML=cols[randomNo];
+	document.querySelector(".color").innerHTML=cols[randomNo];
 }

@@ -9,5 +9,5 @@ function getRandomNum(){
 function ChangeBGCol(){
 	var randomNo=getRandomNum();
 	document.body.style.backgroundColor=hex[randomNo];
-	document.getElementById("color").innerHTML=hex[randomNo];
+	document.querySelector(".color").innerHTML=hex[randomNo];
 }
