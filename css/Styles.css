@@ -1,3 +1,4 @@
+@media only screen and (max-width:375px){
 body{
 	background-color:#f1f5f8;
 	overflow-x:hidden;
@@ -46,7 +47,7 @@ position:relative;
 	top:150px;	
 }
 
-#color{
+.color{
 	font-family:OCR A Std, monospace;
 	color:darkblue;
 }
@@ -92,6 +93,7 @@ width:125px;
 background:#000;
 color:#fff;	
 border:1px solid #ccc;
+}
 }
 @media only screen and (max-width:375px){
 body{
@@ -147,7 +149,7 @@ position:relative;
 	right: 49px;
 }
 
-#color{
+.color{
 	font-family:OCR A Std, monospace;
 	color:darkblue;
 }
